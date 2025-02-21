@@ -8,9 +8,9 @@
 
 """
 
-__author__ = 'sparshshekhar4077@gmail.com'
-__date__ = '2025-02-18'
-__copyright__ = 'Copyright 2025, Sparsh Shekhar'
+__author__ = '22m0587@iitb.ac.in'
+__date__ = '2025-02-21'
+__copyright__ = 'Copyright 2025, SPARSH SHEKHAR'
 
 import unittest
 
@@ -18,7 +18,7 @@ from qgis.PyQt.QtGui import QIcon
 
 
 
-class LakeCapacityEstimatorDialogTest(unittest.TestCase):
+class LakesAndReservoirsCapacityEstimatorDialogTest(unittest.TestCase):
     """Test rerources work."""
 
     def setUp(self):
@@ -31,12 +31,12 @@ class LakeCapacityEstimatorDialogTest(unittest.TestCase):
 
     def test_icon_png(self):
         """Test we can click OK."""
-        path = ':/plugins/LakeCapacityEstimator/icon.png'
+        path = ':/plugins/LakesAndReservoirsCapacityEstimator/icon.png'
         icon = QIcon(path)
         self.assertFalse(icon.isNull())
 
 if __name__ == "__main__":
-    suite = unittest.makeSuite(LakeCapacityEstimatorResourcesTest)
+    suite = unittest.makeSuite(LakesAndReservoirsCapacityEstimatorResourcesTest)
     runner = unittest.TextTestRunner(verbosity=2)
     runner.run(suite)
 
