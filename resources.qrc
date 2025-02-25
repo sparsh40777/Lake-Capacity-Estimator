@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/plugins/LAKE_CAPACITY_ESTIMATOR" >
+    <qresource prefix="/plugins/Lake_Capacity" >
         <file>icon.png</file>
     </qresource>
 </RCC>

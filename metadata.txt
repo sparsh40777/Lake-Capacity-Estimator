@@ -3,12 +3,12 @@
 # This file should be included when you package your plugin.# Mandatory items:
 
 [general]
-name=LAKE CAPACITY ESTIMATOR
+name=Lake Capacity Estimator
 qgisMinimumVersion=3.0
 description=This plugin helps estimate the lake surface area and cumulative capacity at different lake elevation using depth or elevation raster data.
 version=0.1
-author=SPARSH SHEKHAR
-email=22m0587@iitb.ac.in
+author=Sparsh Shekhar
+email=sparshshekhar4077@gmail.com
 
 about=This plugin is designed to estimate lake areas and volumetric variations at different levels, providing the total capacity of lakes and reservoirs. It also generates elevation-capacity and area-elevation graph images. Additionally, the plugin offers an optional feature to crop the lake raster using a lake vector extent layer.
 
@@ -23,7 +23,7 @@ hasProcessingProvider=no
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=LAKE RESERVOIRS CAPACITY VOLUME AREA WATER SPREAD
+tags=python
 
 homepage=https://github.com/sparsh40777/Lake-Capacity-Estimator.git
 category=Plugins

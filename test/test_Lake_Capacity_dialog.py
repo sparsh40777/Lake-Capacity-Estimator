@@ -8,26 +8,26 @@
 
 """
 
-__author__ = '22m0587@iitb.ac.in'
-__date__ = '2025-02-21'
-__copyright__ = 'Copyright 2025, SPARSH SHEKHAR'
+__author__ = 'sparshshekhar4077@gmail.com'
+__date__ = '2025-02-25'
+__copyright__ = 'Copyright 2025, Sparsh Shekhar'
 
 import unittest
 
 from qgis.PyQt.QtGui import QDialogButtonBox, QDialog
 
-from LAKE_CAPACITY_ESTIMATOR_dialog import LakesAndReservoirsCapacityEstimatorDialog
+from Lake_Capacity_dialog import LakeCapacityDialog
 
 from utilities import get_qgis_app
 QGIS_APP = get_qgis_app()
 
 
-class LakesAndReservoirsCapacityEstimatorDialogTest(unittest.TestCase):
+class LakeCapacityDialogTest(unittest.TestCase):
     """Test dialog works."""
 
     def setUp(self):
         """Runs before each test."""
-        self.dialog = LakesAndReservoirsCapacityEstimatorDialog(None)
+        self.dialog = LakeCapacityDialog(None)
 
     def tearDown(self):
         """Runs after each test."""
@@ -49,7 +49,7 @@ class LakesAndReservoirsCapacityEstimatorDialogTest(unittest.TestCase):
         self.assertEqual(result, QDialog.Rejected)
 
 if __name__ == "__main__":
-    suite = unittest.makeSuite(LakesAndReservoirsCapacityEstimatorDialogTest)
+    suite = unittest.makeSuite(LakeCapacityDialogTest)
     runner = unittest.TextTestRunner(verbosity=2)
     runner.run(suite)
 

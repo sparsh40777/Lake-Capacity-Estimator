@@ -1,12 +1,12 @@
 #/***************************************************************************
-# LakesAndReservoirsCapacityEstimator
+# LakeCapacity
 #
 # This plugin helps estimate the lake surface area and cumulative capacity at different lake elevation using depth or elevation raster data.
 #							 -------------------
-#		begin				: 2025-02-21
+#		begin				: 2025-02-25
 #		git sha				: $Format:%H$
-#		copyright			: (C) 2025 by SPARSH SHEKHAR
-#		email				: 22m0587@iitb.ac.in
+#		copyright			: (C) 2025 by Sparsh Shekhar
+#		email				: sparshshekhar4077@gmail.com
 # ***************************************************************************/
 #
 #/***************************************************************************
@@ -38,15 +38,15 @@ LOCALES =
 # translation
 SOURCES = \
 	__init__.py \
-	LAKE_CAPACITY_ESTIMATOR.py LAKE_CAPACITY_ESTIMATOR_dialog.py
+	Lake_Capacity.py Lake_Capacity_dialog.py
 
-PLUGINNAME = LAKE_CAPACITY_ESTIMATOR
+PLUGINNAME = Lake_Capacity
 
 PY_FILES = \
 	__init__.py \
-	LAKE_CAPACITY_ESTIMATOR.py LAKE_CAPACITY_ESTIMATOR_dialog.py
+	Lake_Capacity.py Lake_Capacity_dialog.py
 
-UI_FILES = LAKE_CAPACITY_ESTIMATOR_dialog_base.ui
+UI_FILES = Lake_Capacity_dialog_base.ui
 
 EXTRAS = metadata.txt icon.png
 

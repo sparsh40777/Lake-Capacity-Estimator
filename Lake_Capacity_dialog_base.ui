@@ -1,6 +1,6 @@
 <ui version="4.0" >
- <class>LakesAndReservoirsCapacityEstimatorDialogBase</class>
- <widget class="QDialog" name="LakesAndReservoirsCapacityEstimatorDialogBase" >
+ <class>LakeCapacityDialogBase</class>
+ <widget class="QDialog" name="LakeCapacityDialogBase" >
   <property name="geometry" >
    <rect>
     <x>0</x>
@@ -10,7 +10,7 @@
    </rect>
   </property>
   <property name="windowTitle" >
-   <string>LAKE CAPACITY ESTIMATOR</string>
+   <string>Lake Capacity Estimator</string>
   </property>
   <widget class="QDialogButtonBox" name="button_box" >
    <property name="geometry" >
@@ -34,7 +34,7 @@
   <connection>
    <sender>button_box</sender>
    <signal>accepted()</signal>
-   <receiver>LakesAndReservoirsCapacityEstimatorDialogBase</receiver>
+   <receiver>LakeCapacityDialogBase</receiver>
    <slot>accept()</slot>
    <hints>
     <hint type="source_label" >
@@ -50,7 +50,7 @@
   <connection>
    <sender>button_box</sender>
    <signal>rejected()</signal>
-   <receiver>LakesAndReservoirsCapacityEstimatorDialogBase</receiver>
+   <receiver>LakeCapacityDialogBase</receiver>
    <slot>reject()</slot>
    <hints>
     <hint type="source_label" >

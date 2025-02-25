@@ -1,7 +1,7 @@
 Plugin Builder Results
 
-Your plugin LakesAndReservoirsCapacityEstimator was created in:
-    E:/lake_capacity_estimator
+Your plugin LakeCapacity was created in:
+    C:\Users\USER\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\lake_capacity
 
 Your QGIS plugin directory is located at:
     C:/Users/USER/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins
@@ -17,11 +17,11 @@ What's Next:
 
   * Test the plugin by enabling it in the QGIS plugin manager
 
-  * Customize it by editing the implementation file: ``LAKE_CAPACITY_ESTIMATOR.py``
+  * Customize it by editing the implementation file: ``Lake_Capacity.py``
 
   * Create your own custom icon, replacing the default icon.png
 
-  * Modify your user interface by opening LakesAndReservoirsCapacityEstimator_dialog_base.ui in Qt Designer
+  * Modify your user interface by opening LakeCapacity_dialog_base.ui in Qt Designer
 
   * You can use the Makefile to compile your Ui and resource files when
     you make changes. This requires GNU make (gmake)
