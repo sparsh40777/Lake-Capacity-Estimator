@@ -110,7 +110,7 @@ class LakeCapacity(QgsProcessingAlgorithm):
             A1 = depth_data[i][2]
             A2 = depth_data[i + 1][2]
             A_mid = (A1 * A2) ** 0.5
-            volume = (h / 6) * (A1 + 4 * A_mid + A2)
+            volume = (h / 3) * (A1 + 1 * A_mid + A2)
             volume_data.append(volume)
 
         cumulative_volume_data = [0]
