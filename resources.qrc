@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/Lake_Capacity" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
